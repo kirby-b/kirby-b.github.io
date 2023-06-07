@@ -1,0 +1,17 @@
+body{
+    background-color: cornsilk;
+}
+h1, h3, p {
+    text-align: center;
+}
+
+div.columns{
+    margin:auto;
+    float:left;
+    height:auto;
+    width:30.3333333333333%;
+    margin-right: 3px;
+}
+div.columns p{
+    font-size: 100%;
+}
