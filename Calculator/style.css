@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+h2{
+    color: hotpink;
+}
+p{
+    color: hotpink;
+}
+input{
+    color: hotpink;
+}
+button{
+    color: hotpink;
+    margin-top: 10px;
+}
+div{
+    color: hotpink;
+}
+html{
+    text-align: center;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+}
