@@ -2,20 +2,14 @@ body{
     background-color: black;
 }
 h2{
-    color: hotpink;
+    color: green;
 }
-p{
-    color: hotpink;
-}
-input{
-    color: hotpink;
+div, input, p{
+    color: green;
 }
 button{
-    color: hotpink;
+    color: green;
     margin-top: 10px;
-}
-div{
-    color: hotpink;
 }
 html{
     text-align: center;
