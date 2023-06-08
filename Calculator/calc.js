@@ -1,40 +1,39 @@
-var numOne = parseInt(document.getElementsByClassName("numOne"));
-var numTwo = parseInt(document.getElementsByClassName("numTwo"));
-
 function calculate(){
+    var numOne = parseInt(document.getElementsByClassName("numOne"));
+    var numTwo = parseInt(document.getElementsByClassName("numTwo"));
     if(document.getElementsByClassName("sign") == "+"){
-        addFunc();
+        addFunc(numOne, numTwo);
     }
     else if(document.getElementsByClassName("sign") == "-"){
-        subtractFunc();
+        subtractFunc(numOne, numTwo);
     }
     else if(document.getElementsByClassName("sign") == "/"){
-        divideFunc();
+        divideFunc(numOne, numTwo);
     }
     else if(document.getElementsByClassName("sign") == "*"){
-        multiplyFunc();
+        multiplyFunc(numOne, numTwo);
     }
     else if(document.getElementsByClassName("sign") == "%"){
-        moduloFunc();
+        moduloFunc(numOne, numTwo);
     }
 }
-function addFunc(){
-    var result = numOne + numTwo;
+function addFunc(one, two){
+    var result = one + two;
     document.getElementById('result').innerHTML = result;
 }
-function subtractFunc(){
-    var result = numOne - numTwo;
+function subtractFunc(one, two){
+    var result = one - two;
     document.getElementById('result').innerHTML = result;
 }
-function divideFunc(){
-    var result = numOne / numTwo;
+function divideFunc(one, two){
+    var result = one / two;
     document.getElementById('result').innerHTML = result;
 }
-function multiplyFunc(){
-    var result = numOne * numTwo;
+function multiplyFunc(one, two){
+    var result = one * two;
     document.getElementById('result').innerHTML = result;
 }
-function moduloFunc(){
-    var result = numOne % numTwo;
+function moduloFunc(one, two){
+    var result = one % two;
     document.getElementById('result').innerHTML = result;
 }
