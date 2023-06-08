@@ -4,5 +4,5 @@ function randFunc() {
 
 	var result = Math.floor(Math.random() * (max - min + 1)) + min;
 
-	document.getElementById('result').innerHTML = result;
+	document.getElementById("result").innerHTML = result;
 }
