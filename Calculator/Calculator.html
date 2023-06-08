@@ -11,7 +11,13 @@
 		<p>First Number</p>
 		<input type="text" class="numOne"><br>
 		<p>Sign</p>
-		<input type="text" class="sign"><br>
+		<select class="sign" name="sign">
+            <option value="+">Add</option>
+            <option value="-">Subtract</option>
+            <option value="/">Divide</option>
+            <option value="*">Multiply</option>
+            <option value="%">Modulo</option>
+        </select>
         <p>Second Number</p>
 		<input type="text" class="numTwo"><br>
 		<button class="button" onclick="calculate()">Calculate</button>
