@@ -1,19 +1,19 @@
 function calculate(){
-    var numOne = parseInt(document.getElementsByClassName("numOne").value);
-    var numTwo = parseInt(document.getElementsByClassName("numTwo").value);
-    if(document.getElementsByClassName("sign") == "+"){
+    var numOne = parseInt(document.getElementsByClassName("numOne")[0].value);
+    var numTwo = parseInt(document.getElementsByClassName("numTwo")[0].value);
+    if(document.getElementsByClassName("sign")[0].value === "+"){
         addFunc(numOne, numTwo);
     }
-    else if(document.getElementsByClassName("sign").value == "-"){
+    else if(document.getElementsByClassName("sign")[0].value === "-"){
         subtractFunc(numOne, numTwo);
     }
-    else if(document.getElementsByClassName("sign").value == "/"){
+    else if(document.getElementsByClassName("sign")[0].value === "/"){
         divideFunc(numOne, numTwo);
     }
-    else if(document.getElementsByClassName("sign").value == "*"){
+    else if(document.getElementsByClassName("sign")[0].value === "*"){
         multiplyFunc(numOne, numTwo);
     }
-    else if(document.getElementsByClassName("sign").value == "%"){
+    else if(document.getElementsByClassName("sign")[0].value === "%"){
         moduloFunc(numOne, numTwo);
     }
 }
