@@ -7,6 +7,7 @@
 		<h2> Random Number Generator </h2>
 	</head>
 	<body>
+		<script src="random.js"></script>
 		<p>Lowest Number</p>
 		<input type="text" class="min"><br>
 		<p>Highest Number</p>
@@ -19,14 +20,3 @@
 		<a href="/index.html" title="Go to the main page" class="bottom">Main Page</a><br>
 	</footer>
 </html>
-
-<script>
-function randFunc() {
-	var min = parseInt(document.getElementsByClassName('min')[0].value);
-	var max = parseInt(document.getElementsByClassName('max')[0].value);
-
-	var result = Math.floor(Math.random() * (max - min + 1)) + min;
-
-	document.getElementById('result').innerHTML = result;
-}
-</script>
