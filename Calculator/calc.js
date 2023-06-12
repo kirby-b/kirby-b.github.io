@@ -16,6 +16,9 @@ function calculate(){
     else if(document.getElementsByClassName("sign")[0].value === "%"){
         moduloFunc(numOne, numTwo);
     }
+    else if(document.getElementsByClassName("sign")[0].value === "^"){
+        powerFunc(numOne, numTwo);
+    }
 }
 function addFunc(one, two){
     var result = one + two;
@@ -35,5 +38,9 @@ function multiplyFunc(one, two){
 }
 function moduloFunc(one, two){
     var result = one % two;
+    document.getElementById("result").innerHTML = result;
+}
+function powerFunc(one, two){
+    var result = one ** two;
     document.getElementById("result").innerHTML = result;
 }
