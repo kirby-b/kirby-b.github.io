@@ -1,10 +1,19 @@
 function calculate(){
-    var numOne = parseInt(document.getElementsByClassName("numOne")[0].value);
-    var numTwo = parseInt(document.getElementsByClassName("numTwo")[0].value);
-    //if num1 === "PI"
-    //num1 = math.pow
-    //if num2 === "PI"
-    //num2 = math.pow
+    var numOne = document.getElementsByClassName("numOne")[0].value;
+    var numTwo = document.getElementsByClassName("numTwo")[0].value;
+    if(numOne === "PI"){
+        numOne = Math.PI;
+    }
+    else{
+        numOne = parseInt(numOne);
+    }
+    if(numTwo === "PI"){
+        numTwo = Math.PI;
+    }
+    else{
+        numTwo = parseInt(numTwo);
+    }
+
     if(document.getElementsByClassName("sign")[0].value === "+"){
         addFunc(numOne, numTwo);
     }
