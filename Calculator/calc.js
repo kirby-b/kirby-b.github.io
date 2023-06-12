@@ -1,13 +1,13 @@
 function calculate(){
     var numOne = document.getElementsByClassName("numOne")[0].value;
     var numTwo = document.getElementsByClassName("numTwo")[0].value;
-    if(numOne === "PI"){
+    if(numOne.toUpperCase() === "PI"){
         numOne = Math.PI;
     }
     else{
         numOne = parseInt(numOne);
     }
-    if(numTwo === "PI"){
+    if(numTwo.toUpperCase() === "PI"){
         numTwo = Math.PI;
     }
     else{
