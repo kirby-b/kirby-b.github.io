@@ -1,6 +1,9 @@
 body{
     background-color: black;
 }
+body p{
+    color: green;
+}
 h2, div, input, h3{
     color: green;
 }
