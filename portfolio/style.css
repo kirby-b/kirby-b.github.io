@@ -17,7 +17,7 @@ div.links{
     display: flex;
     box-shadow: 10px 10px 5px lightblue;
 }
-p.links{
+div.links p{
     white-space: nowrap;
     display:inline-block;
     size:100%;
