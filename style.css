@@ -1,6 +1,23 @@
-h1 {
-    text-align:center;
-    font-size: 30px;
+@media screen and (min-width: 600px) {
+    h1 {
+        text-align:center;
+        font-size: 30px;
+    }
+    p, a{
+        font-size: 20px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    h1 {
+        text-align:center;
+        font-size: 30px;
+        width: 100%;
+    }
+    p, a{
+        font-size: 20px;
+        width:100%
+    }
 }
 a:link,a:visited,a:hover,a:active {
     color: #243c54;
@@ -10,7 +27,4 @@ html{
 }
 h1, p{
     color:#f4dcbb;
-}
-p, a{
-    font-size: 20px;
 }
