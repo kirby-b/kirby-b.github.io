@@ -31,10 +31,6 @@
         font-size: 30px;
         width:100%
     }
-    a{
-        font-size: 20px;
-        width:100%
-    }
     h2,div,button,input,p{
         color: hotpink;
     }
@@ -43,8 +39,7 @@
     }
     div.links p{
         position: relative;
-        font-size: 10px;
-        size:100%;
+        font-size: 20px;
     }
     #result{
         font-size: 69px;

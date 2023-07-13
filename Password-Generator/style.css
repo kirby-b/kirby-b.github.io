@@ -32,7 +32,7 @@
         font-size: 50px;
         width: 100%;
     }
-    p, a{
+    p{
         font-size: 30px;
         width:100%
     }
@@ -44,8 +44,7 @@
     }
     div.links p{
         position: relative;
-        font-size: 10px;
-        size:100%;
+        font-size: 20px;
     }
     #result{
         font-size: 69px;
