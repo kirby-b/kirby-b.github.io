@@ -1,9 +1,9 @@
 @media screen and (min-width: 600px) {
-    h1 {
+    h2 {
         text-align:center;
         font-size: 30px;
     }
-    p, a{
+    p{
         font-size: 20px;
     }
     h2,div,button,input,p{
