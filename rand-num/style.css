@@ -50,15 +50,15 @@
     bottom: 0;
 }
 .links {
-    top: 0;
-    position: -webkit-sticky; 
-    position: sticky;
     background-color: grey;
     padding: 5px;
     border: 5px solid #243c54;
     margin: 5px;
 }
 div.links{
+    top: 0;
+    position: -webkit-sticky; 
+    position: sticky;
     display: flex;
 }
 a:link,a:visited,a:hover,a:active {
