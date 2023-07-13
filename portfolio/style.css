@@ -1,6 +1,9 @@
 h1 {
     text-align:center;
 }
+p#greeting {
+    display: flex;
+}
 .links {
     top: 0;
     position: -webkit-sticky; 
@@ -11,6 +14,7 @@ h1 {
     margin: 5px;
 }
 div.links{
+    display: flex;
     box-shadow: 10px 10px 5px lightblue;
 }
 p.links{

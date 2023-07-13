@@ -25,6 +25,9 @@ p.links{
     display:inline-block;
     size:100%;
 }
+div.links{
+    display: flex;
+}
 a:link,a:visited,a:hover,a:active {
     color: #243c54;
 }
