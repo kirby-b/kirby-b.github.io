@@ -27,8 +27,12 @@
         font-size: 50px;
         width: 100%;
     }
-    p, a{
+    p{
         font-size: 30px;
+        width:100%
+    }
+    a{
+        font-size: 20px;
         width:100%
     }
     h2,div,button,input,p{
@@ -38,6 +42,7 @@
         text-align: center;
     }
     div.links p{
+        position: relative;
         font-size: 10px;
         size:100%;
     }
