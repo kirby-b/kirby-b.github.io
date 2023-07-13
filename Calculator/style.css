@@ -40,6 +40,7 @@
         text-align: center;
     }
     div.links p{
+        position: relative;
         font-size: 10px;
         size:100%;
     }
