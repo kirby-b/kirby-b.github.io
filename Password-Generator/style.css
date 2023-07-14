@@ -26,7 +26,8 @@
         margin-top: 10px;
     }
     
-}@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 600px) {
     h2 {
         text-align:center;
         font-size: 45px;
@@ -43,6 +44,8 @@
         text-align: center;
     }
     div.links p{
+        white-space: normal;
+        display: flex;
         position: relative;
         font-size: 20px;
     }

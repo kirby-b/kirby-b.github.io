@@ -38,6 +38,8 @@
         text-align: center;
     }
     div.links p{
+        white-space: normal;
+        display: flex;
         position: relative;
         font-size: 20px;
     }
