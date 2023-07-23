@@ -55,10 +55,6 @@
         font-size: 25px;
     }
 }
-.bottom{
-    position: fixed;
-    bottom: 0;
-}
 .links {
     background-color: grey;
     padding: 5px;
