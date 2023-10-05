@@ -109,12 +109,20 @@ function checkContact(){
         p2Score+=1;
         updateScore();
         createBall();
+        if(p2Score >= 10){
+            alert("Player 2 Wins!")
+            resetGame()
+        }
         return;
     }
     if(ballX >= gameWidth){
         p1Score+=1;
         updateScore();
         createBall();
+        if(p1Score >= 10){
+            alert("Player 1 Wins!")
+            resetGame()
+        }
         return;
     }
     if(ballX <= (paddle1.x + paddle1.width + ballRadius)){
