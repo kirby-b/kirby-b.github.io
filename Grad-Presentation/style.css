@@ -5,19 +5,19 @@ a:hover{
   color: blue;
 }
 p{
-  
+  font-size: 1.5rem;
 }
 html{
-  
+  background-color: aliceblue;
 }
 h1{
   
 }
-ul{
-  
+h3{
+  font-size: 5rem;
 }
 li{
-  
+  font-size: 1.2rem;
 }
 href{
   
