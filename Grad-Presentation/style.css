@@ -10,18 +10,15 @@ p{
 html{
   background-color: aliceblue;
 }
-h1{
-  
-}
 h3{
   font-size: 5rem;
 }
 li{
   font-size: 1.2rem;
 }
-href{
-  
-}
 .downloadable{
   color: red;
+}
+hr{
+  border-width: 2px;
 }
