@@ -40,6 +40,7 @@ hr{
 
 .flex-item{
   flex: 14%;
+  margin:0px 2px 0px 2px;
 }
 
 /* Responsive layout - makes a one column layout (100%) */
