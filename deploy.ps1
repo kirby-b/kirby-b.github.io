@@ -7,6 +7,9 @@ npm run build
 # Change directory into the dist folder.
 cd dist
 
+# Add the CNAME file for custom domain support
+echo 'kirby-b.github.io'
+
 $message = Read-Host -Prompt 'Deploy message: '
 cp ../README.md ./README.md
 
