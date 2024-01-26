@@ -1,40 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brodie Kirby Resume">
     <meta name="keywords" content="HTML, CSS, JavaScript, Resume">
-    <meta name="author" content="Brodie Kirby">
-    <title>Brodie Kirby Contact Information</title>
-    <link rel = "stylesheet" href="style.css">
-    <head>
-        <div class="links">
-            <p style="text-align:left;" class = "links"> <a href="index.html" title="Back to home">Home</a> </p>
-            <p style="text-align:left;" class = "links"> <a href="Work.html" title="My work and projects">What I have done</a> </p>
-            <p style="text-align:left;" class = "links"> <a href="ContactInfo.html" title="Contact Me">Contact Me</a> </p>
+    <meta name="author" content="Brodie Kirby & Adelaide Meisel">
+    <link href="./src/built.css" rel="stylesheet">
+    <title>Brodie Kirby Contact Info</title>
+</head>
+
+<body class="bg-gray-100 flex flex-col min-h-screen">
+    <header class="bg-gradient-to-r from-rose-700 to-blue-700 text-white">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo on the left -->
+            <div class="w-1/4 max-w-xs flex-shrink-0">
+                <a href=""><img src="" alt="My Logo" class="w-full"></a>
             </div>
-        <h1>Contact Information</h1>
-    </head>
-    <body>
-        <div class="columns">
-            <p>
-                <b>You can call me at:</b><br>989-280-3598<br><b>Or You can email me at:</b><br>kirby.brodie66@gmail.com
-            </p>
+
+            <!-- Links on the right -->
+            <div class="flex md:flex-row flex-col space-x-4">
+                <nav class="flex space-x-4">
+                    <a href="index.html" class="md:text-base text-xs hover:text-purple-300">Home</a>
+                    <a href="Work.html" class="md:text-base text-xs hover:text-purple-300">Work</a>
+                    <a href="ContactInfo.html" class="md:text-base text-xs hover:text-purple-300">Contact Info</a>
+                    <a href="https://github.com/kirby-b" class="md:text-base text-xs hover:text-purple-300">Github</a>
+                </nav>
+            </div>
         </div>
-        <div class="columns">
-            <p>Please leave your name, your email, and a message to me.<br>(Note this does not actually do anything yet)</p>
-            <form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" placeholder="Sample"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" placeholder="Text">
-            </form>  
-            <form>
-                <label for="mail">Email:</label><br>
-                <input type="email" id="mail" name="mail" placeholder="sample@gmail.com"><br>
-            </form>
-            <form>
-                <label for="message">Your message to me:</label><br>
-                <input type="text" id="message" name="message" placeholder="..."><br>
-            </form>
+    </header>
+
+    <main class="flex-grow">
+        <div class="bg-gray-100 py-10">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
+    
+                    <!-- Text Section -->
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <p class="text-xl font-sans m-4">
+                            <b>You can call me at:</b><br>
+                            989-280-3598<br>
+                            <b>Or You can email me at:</b>
+                            <br>kirby.brodie66@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <p class="text-xl font-sans m-4">
+                            Feel free to interact with me on any of the following platforms:
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-700 to-rose-700 text-white text-center py-6">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-center space-x-6">
+                <a href="index.html" class="hover:text-purple-300">Home</a>
+                <a href="Work.html" class="hover:text-purple-300">Work</a>
+                <a href="ContactInfo.html" class="hover:text-purple-300">Contact Info</a>
+            </div><!--Links to other pages-->
+    
+            <p class="mt-6 text-sm">© 2023 Brodie Kirby.</p>
+        </div>
+    </footer>
+</body>
+
 </html>

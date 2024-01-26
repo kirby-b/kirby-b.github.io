@@ -1,40 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brodie Kirby Resume">
     <meta name="keywords" content="HTML, CSS, JavaScript, Resume">
-    <meta name="author" content="Brodie Kirby">
-    <title>Brodie Kirby Projects</title>
-    <link rel = "stylesheet" href="style.css">
-    <head>
-        <div class="links">
-            <p style="text-align:left;" class = "links"> <a href="index.html" title="Back to home">Home</a> </p>
-            <p style="text-align:left;" class = "links"> <a href="Work.html" title="My work and projects">What I have done</a> </p>
-            <p style="text-align:left;" class = "links"> <a href="ContactInfo.html" title="Contact Me">Contact Me</a> </p>
-            <p style="text-align:left;" class = "links"> <a href="https://github.com/kirby-b" target="_blank" title="Visit My github">My Github</a> </p>
-        </div>
-        <h1>My Work and Projects</h1>
-    </head>
-    <body>
-        <div>
-            <p>
-                I have no experience working yet but am eager to. I have built multiple projects and update them when I feel the need to. If you would like to see any of these projects you can click the link above.
-            </p>
-        </div>
-        <div class="fav_projs">
-            <br>
-            <h2>My Favorite Projects</h2>
-            <div class="slant">
-                <div>
-                    <h4><a href="https://github.com/kirby-b/Mini-Python-Projects" target="_blank" title="Python Mini Projects link">My small collection of python programs</a></h4>
-                    <p>-A collection of my python projects I have done. Many are just games I made for fun.</p>
-                </div>
+    <meta name="author" content="Brodie Kirby & Adelaide Meisel">
+    <link href="./src/built.css" rel="stylesheet">
+    <title>Brodie Kirby's Work Experience</title>
+</head>
+
+<body class="bg-gray-100 flex flex-col min-h-screen">
+    <header class="bg-gradient-to-r from-rose-700 to-blue-700 text-white">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo on the left -->
+            <div class="w-1/4 max-w-xs flex-shrink-0">
+                <a href=""><img src="" alt="My Logo" class="w-full"></a>
             </div>
-            <div class="slant">
-                <div>
-                    <h4><a href="https://github.com/kirby-b/Rock-Paper-Scissors--Js" target="_blank" title="JavaScript Rock Paper Scissors link">My Rock Paper Scissors game I made with mostly JavaScript.</a></h4>
-                    <p>-Source code for my JS RPS game. Nothing super complicated and is another thing just made for fun.</p>
-                </div>
+
+            <!-- Links on the right -->
+            <div class="flex md:flex-row flex-col space-x-4">
+                <nav class="flex space-x-4">
+                    <a href="index.html" class="md:text-base text-xs hover:text-purple-300">Home</a>
+                    <a href="Work.html" class="md:text-base text-xs hover:text-purple-300">Work</a>
+                    <a href="ContactInfo.html" class="md:text-base text-xs hover:text-purple-300">Contact Info</a>
+                    <a href="https://github.com/kirby-b" class="md:text-base text-xs hover:text-purple-300">Github</a>
+                </nav>
             </div>
         </div>
-    </body>
+    </header>
+
+    <main class="flex-grow">
+        <div class="bg-gray-100 py-10">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
+    
+                    <!-- Text Section -->
+                    <div class="md:w-3/4 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <p class="text-xl font-sans m-4">
+                            I have no experience working yet but am eager to. I have built multiple projects and update them when I feel the need to. Below are a few links for my bigger projects
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-700 to-rose-700 text-white text-center py-6">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-center space-x-6">
+                <a href="index.html" class="hover:text-purple-300">Home</a>
+                <a href="Work.html" class="hover:text-purple-300">Work</a>
+                <a href="ContactInfo.html" class="hover:text-purple-300">Contact Info</a>
+            </div><!--Links to other pages-->
+    
+            <p class="mt-6 text-sm">© 2023 Brodie Kirby.</p>
+        </div>
+    </footer>
+</body>
+
 </html>
