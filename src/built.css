@@ -2059,6 +2059,14 @@ video {
   text-align: end;
 }
 
+.indent-1 {
+  text-indent: 0.25rem;
+}
+
+.indent-1\.5 {
+  text-indent: 0.375rem;
+}
+
 .align-baseline {
   vertical-align: baseline;
 }
