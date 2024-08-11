@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="main-html" class="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -9,11 +9,12 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, Resume">
     <meta name="author" content="Brodie Kirby">
     <link href="./src/built.css" rel="stylesheet">
+    <script src="./src/scripts/darkmode.js"></script>
     <title>Brodie Kirby Portfolio Main Page</title>
 </head>
 
-<body class="circuit-bg flex flex-col min-h-screen">
-    <header class="bg-gradient-to-r from-rose-700 to-blue-700 text-white">
+<body id="main-body" class="flex flex-col min-h-screen dark-circuit-bg"> <!--I dont know how to get it to work the way I want so it will just add the dark version and remove it as needed-->
+    <header class="bg-gradient-to-r from-rose-700 to-blue-700 dark:from-rose-950 dark:to-blue-950 text-white">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <!-- Logo on the left -->
             <div class="w-1/4 max-w-xs flex-shrink-0">
@@ -37,8 +38,8 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Bio Section -->
-                    <div class="md:w-3/4 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <p class="text-xl font-sans m-4">
+                    <div class="md:w-3/4 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
+                        <p class="text-xl font-sans m-4 text-black dark:text-white">
                             I am a high school student who is studying Computer Programming. In my free time I like to play video games, program, and mess with various other technology (Mini PCs, building computers, 
                             3d printing, etc.). I have experimented with many different branches of programming, and don't plan on stopping soon. As of right now I have the most experience with Game Development, Python Programming, and Web 
                             Development.
@@ -55,11 +56,11 @@
                 <br>
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Certs Section -->
-                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl">
+                    <div class="md:w-1/2 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black dark:text-white">
                             <a href="https://www.credly.com/users/brodie-kirby" class="hover:text-purple-300" target="_blank"><b>CERTIFICATIONS AND AWARDS</b></a>
                         </div>
-                        <p class="text-xl font-sans m-4">
+                        <p class="text-xl font-sans m-4 text-black dark:text-white">
                             It Specialist - Python (Certiport)<br>
                             It Specialist - Computational Thinking (Certiport)<br>
                             It Specialist - Data Analytics (Certiport)<br>
@@ -74,11 +75,11 @@
                         </p>
                     </div>
                     <!-- Skills Section -->
-                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl">
+                    <div class="md:w-1/2 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black dark:text-white">
                             <b>SKILLS</b>
                         </div>
-                        <p class="text-xl font-sans m-4 text-center">
+                        <p class="text-xl font-sans m-4 text-center text-black dark:text-white">
                             <br><span class="font-semibold">Major Skills</span><br>
                             Python | Computer Terminology | Java | Godot Programming | Software Development | Code Conversion | Automation & Scripting | 
                             HTML | CSS | Web Development | Data Analysis | Templating | PHP | Laravel | TailwindCSS | Arduino | Pc Building | Raspberry Pi | 
@@ -93,21 +94,21 @@
                 <br>
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Education -->
-                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl">
+                    <div class="md:w-1/2 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black dark:text-white">
                             <b>EDUCATION</b>
                         </div>
-                        <p class="text-xl font-sans m-4">
+                        <p class="text-xl font-sans m-4 text-black dark:text-white">
                             - Bay City Western High school<br>
                             - BAISD Career Center for Computer Programming
                         </p>
                     </div>
                     <!-- Memberships -->
-                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl">
+                    <div class="md:w-1/2 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black dark:text-white">
                             <b>MEMBERSHIPS</b>
                         </div>
-                        <p class="text-xl font-sans m-4">
+                        <p class="text-xl font-sans m-4 text-black dark:text-white">
                             - Business Professionals of America <br>
                             - Hack Club
                         </p>
@@ -117,7 +118,7 @@
         </div>
     </main>
 
-    <footer class="bg-gradient-to-r from-blue-700 to-rose-700 text-white text-center py-6">
+    <footer class="bg-gradient-to-r from-blue-700 to-rose-700 dark:from-blue-950 dark:to-rose-950 text-white text-center py-6">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-center space-x-6">
                 <a href="/pages/Work.html" class="hover:text-purple-300">Work</a>
