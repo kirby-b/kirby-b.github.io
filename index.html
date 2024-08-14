@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="main-html" class="">
+<html lang="en" id="main-html">
 
 <head>
     <meta charset="UTF-8">
@@ -9,23 +9,15 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, Resume">
     <meta name="author" content="Brodie Kirby">
     <link href="./src/built.css" rel="stylesheet">
-    <script src="./src/scripts/darkmode.js"></script>
     <title>Brodie Kirby Portfolio Main Page</title>
 </head>
 
 <body id="main-body" class="flex flex-col min-h-screen circuit-bg"> <!--I dont know how to get it to work the way I want so it will just add the dark version and remove it as needed-->
-    <header class="bg-gradient-to-r from-rose-700 to-blue-700 dark:from-rose-950 dark:to-blue-950 text-white">
+    <header class="bg-gradient-to-r from-rose-700 to-blue-700 text-white">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <!-- Logo on the left -->
             <div class="w-1/4 max-w-xs flex-shrink-0">
                 <a href="/index.html"><img src="/media/logo.png" alt="My Logo" class="size-14"></a>
-            </div>
-            <div>
-                <label class="inline-flex items-center cursor-pointer">
-                    <input type="checkbox" value="" class="sr-only peer" onclick="changeMode()" id="darkSlider">
-                    <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                    <span class="ms-3 text-sm font-medium text-gray-300">Dark Mode</span>
-                </label>  
             </div>
             <!-- Links on the right -->
             <div class="flex md:flex-row flex-col space-x-4">
@@ -44,8 +36,8 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Bio Section -->
-                    <div class="md:w-3/4 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
-                        <p class="text-xl font-sans m-4 text-black dark:text-white">
+                    <div class="md:w-3/4 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <p class="text-xl font-sans m-4 text-black">
                             I am a high school student who is studying Computer Programming. In my free time I like to play video games, program, and mess with various other technology (Mini PCs, building computers, 
                             3d printing, etc.). I have experimented with many different branches of programming, and don't plan on stopping soon. As of right now I have the most experience with Game Development, Python Programming, and Web 
                             Development.
@@ -62,11 +54,11 @@
                 <br>
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Certs Section -->
-                    <div class="md:w-1/2 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl text-black dark:text-white">
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black">
                             <a href="https://www.credly.com/users/brodie-kirby" class="hover:text-purple-300" target="_blank"><b>CERTIFICATIONS AND AWARDS</b></a>
                         </div>
-                        <p class="text-xl font-sans m-4 text-black dark:text-white">
+                        <p class="text-xl font-sans m-4 text-black">
                             It Specialist - Python (Certiport)<br>
                             It Specialist - Computational Thinking (Certiport)<br>
                             It Specialist - Data Analytics (Certiport)<br>
@@ -81,11 +73,11 @@
                         </p>
                     </div>
                     <!-- Skills Section -->
-                    <div class="md:w-1/2 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl text-black dark:text-white">
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black">
                             <b>SKILLS</b>
                         </div>
-                        <p class="text-xl font-sans m-4 text-center text-black dark:text-white">
+                        <p class="text-xl font-sans m-4 text-center text-black">
                             <br><span class="font-semibold">Major Skills</span><br>
                             Python | Computer Terminology | Java | Godot Programming | Software Development | Code Conversion | Automation & Scripting | 
                             HTML | CSS | Web Development | Data Analysis | Templating | PHP | Laravel | TailwindCSS | Arduino | Pc Building | Raspberry Pi | 
@@ -100,21 +92,21 @@
                 <br>
                 <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
                     <!-- Education -->
-                    <div class="md:w-1/2 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl text-black dark:text-white">
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black">
                             <b>EDUCATION</b>
                         </div>
-                        <p class="text-xl font-sans m-4 text-black dark:text-white">
+                        <p class="text-xl font-sans m-4 text-black">
                             - Bay City Western High school<br>
                             - BAISD Career Center for Computer Programming
                         </p>
                     </div>
                     <!-- Memberships -->
-                    <div class="md:w-1/2 p-4 bg-white dark:bg-black border-2 border-gray-300 dark:border-blue-950 rounded-lg shadow-lg">
-                        <div class="text-center text-2xl text-black dark:text-white">
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black">
                             <b>MEMBERSHIPS</b>
                         </div>
-                        <p class="text-xl font-sans m-4 text-black dark:text-white">
+                        <p class="text-xl font-sans m-4 text-black">
                             - Business Professionals of America <br>
                             - Hack Club
                         </p>
@@ -124,7 +116,7 @@
         </div>
     </main>
 
-    <footer class="bg-gradient-to-r from-blue-700 to-rose-700 dark:from-blue-950 dark:to-rose-950 text-white text-center py-6">
+    <footer class="bg-gradient-to-r from-blue-700 to-rose-700 text-white text-center py-6">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-center space-x-6">
                 <a href="/pages/Work.html" class="hover:text-purple-300">Work</a>
